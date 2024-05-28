@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="220dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:background="@drawable/waiterr"
+        android:layout_height="100dp"
+        android:layout_gravity="center"
+        />
+
+    <TextView
+        android:fontFamily="@font/averialbre_regular"
+        android:textSize="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Pranali Infotech"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/user_name"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:textSize="14dp"
+        android:fontFamily="@font/averialbre_regular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00000000"
+        android:id="@+id/txt_imei_num"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        />
+</LinearLayout>

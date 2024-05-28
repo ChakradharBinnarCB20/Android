@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/table_view"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <include layout="@layout/stock_val_toolbar"/>
+  <LinearLayout
+      android:layout_gravity="center"
+      android:orientation="vertical"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content">
+      <ProgressBar
+          android:id="@+id/pg"
+          android:visibility="gone"
+          android:layout_gravity="center"
+          android:layout_width="50dp"
+          android:layout_height="02dp"
+          tools:ignore="Suspicious0dp" />
+    <LinearLayout
+        android:gravity="center"
+            android:layout_marginTop="15dp"
+            android:id="@+id/lin"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:text="Opening Value"
+                android:layout_gravity="end"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:background="@drawable/edittext_border"
+                android:layout_width="150dp"
+                android:layout_height="40dp"
+                android:textColor="@color/whitecolour"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_gravity="end"
+                android:textStyle="bold"
+                android:textSize="15dp"
+                android:id="@+id/list_d1"
+                android:background="@drawable/edit_text_border"
+                android:layout_width="200dp"
+                android:layout_height="40dp"
+                android:textColor="@color/blackcolour"
+                android:gravity="center"/>
+
+        </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Purchase Value"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d2"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Total Value"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d3"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="Sale Value "
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d4"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Closing Value"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d5"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Margin  Value"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d6"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:text="CashWithdrawals"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d7"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/whitecolour"
+        android:textSize="18dp"
+        android:text="Customer's Outstanding As On"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="New Customers"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d8"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="Old Customers"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d9"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:text="TotOutstandings"
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:background="@drawable/edittext_border"
+            android:layout_width="150dp"
+            android:layout_height="40dp"
+            android:textColor="@color/whitecolour"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_gravity="end"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:id="@+id/list_d10"
+            android:background="@drawable/edit_text_border"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:textColor="@color/blackcolour"
+            android:gravity="center"/>
+
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

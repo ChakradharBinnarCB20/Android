@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/scan"
+            android:icon="@drawable/wine"
+            android:title="Scanning Live Streaming" />
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/wine"
+            android:title="Item Wise Sale" />
+        <item
+            android:id="@+id/item_stock"
+            android:icon="@drawable/wine"
+            android:title="Item Wise Stock Within Period" />
+
+        <item
+            android:id="@+id/stock"
+            android:icon="@drawable/other_stock"
+            android:title="Closing Stock Report" />
+        <item
+            android:id="@+id/sale_register"
+            android:icon="@drawable/report"
+            android:title="Sale Register" />
+        <item
+            android:id="@+id/cust_wise_summary"
+            android:icon="@drawable/report"
+            android:title="Customer Wise O/s Summary" />
+
+        <item
+            android:id="@+id/cust_ledger"
+            android:icon="@drawable/report"
+            android:title="Customer Wise Ledger" />
+
+        <item
+            android:id="@+id/daily_cash_flow"
+            android:icon="@drawable/cash"
+            android:title="Daily Cash Flow" />
+
+
+        <item
+            android:id="@+id/item_wise_ledger"
+            android:icon="@drawable/report"
+            android:title="Item Wise Ledger" />
+        <item
+            android:id="@+id/purchase_register"
+            android:icon="@drawable/report"
+            android:title="Purchase Register Value Wise" />
+        <item
+            android:id="@+id/chalan_value_wise"
+            android:icon="@drawable/report"
+            android:title="Challan Register Value Wise" />
+
+        <item
+            android:id="@+id/pur_supl_smry"
+            android:icon="@drawable/report"
+            android:title="Pur.Reg.Supplier Summary" />
+
+        <item
+            android:id="@+id/chalan_supl_smry"
+            android:icon="@drawable/report"
+            android:title="Chln.Reg.Supplier Summary" />
+        <item
+        android:id="@+id/date_brand_wise_sale_report"
+        android:icon="@drawable/report"
+        android:title="Date/Brand Wise Sale Report" />
+        <item
+            android:id="@+id/date_wise_cash_withdrawal_report"
+            android:icon="@drawable/report"
+            android:title="Date Wise Cash/Card/Pur/Chln/Sale" />
+
+        <item
+            android:id="@+id/customer_wise_item_wise_sale"
+            android:icon="@drawable/report"
+            android:title="Customer Wise Item Wise Sale" />
+
+        <item
+            android:id="@+id/suplier_wise_brand_wise_pur_reg"
+            android:icon="@drawable/report"
+            android:title="Supplier Wise Brand Wise Pur.Reg" />
+
+        <item
+            android:id="@+id/stock_val"
+            android:icon="@drawable/report"
+            android:title="Stock Value Op+Pur+Sl+Cl" />
+        <item
+            android:id="@+id/profit_loss"
+            android:icon="@drawable/report"
+            android:title="Profit And Loss Stmt." />
+    </group>
+
+</menu>

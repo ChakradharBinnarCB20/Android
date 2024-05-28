@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/table_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/lin"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d1"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:background="@drawable/edittextborder_new"
+            android:gravity="center"
+            android:text="Type"
+            android:textColor="#000000" />
+
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d2"
+            android:text="Doc.Dt"
+            android:textColor="#000000"
+            android:background="@drawable/edittextborder_new"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d3"
+            android:text="Debit"
+            android:textColor="#000000"
+            android:background="@drawable/edittextborder_new"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d4"
+            android:text="Credit"
+            android:textColor="#000000"
+            android:background="@drawable/edittextborder_new"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d5"
+            android:text="Closing Bal"
+            android:textColor="#000000"
+            android:background="@drawable/edittextborder_new"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:gravity="center"/>
+        <TextView
+            android:textStyle="bold"
+            android:id="@+id/list_d6"
+            android:text="Closing Bal"
+            android:textColor="#000000"
+            android:background="@drawable/edittextborder_new"
+            android:layout_width="100dp"
+            android:layout_height="35dp"
+            android:gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>

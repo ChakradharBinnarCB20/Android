@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:background="@color/colorPrimary"
+    android:gravity="bottom"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!-- <de.hdodenhof.circleimageview.CircleImageView
+         android:layout_marginTop="20dp"
+         android:id="@+id/tg_user_profile"
+         android:layout_width="100dp"
+         android:layout_height="100dp"
+         android:background="@drawable/launcher"
+         android:layout_gravity="center_horizontal">
+     </de.hdodenhof.circleimageview.CircleImageView>-->
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="80dp"
+        android:background="@drawable/wine_shop"
+        android:layout_height="80dp"
+        android:layout_gravity="center"
+        />
+
+    <!-- <Button
+         android:layout_width="35dp"
+         android:layout_height="30dp"
+         android:layout_marginLeft="50dp"
+         android:layout_marginTop="15dp"
+         android:id="@+id/tg_change_profile"
+         android:background="@drawable/cam2"
+         android:layout_gravity="center" />-->
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Wine Shop Report"
+        android:textAllCaps="false"
+        android:textStyle="bold"
+        android:id="@+id/user_name"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center" />
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="00000000"
+        android:id="@+id/txt_imei_num"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        />-->
+</LinearLayout>

@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IpAddress">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF"
+       >
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <ImageView
+                android:paddingTop="50dp"
+                android:layout_width="match_parent"
+                android:layout_height="350dp"
+                android:src="@drawable/ip_img" />
+
+            <TextView
+                android:gravity="center"
+                android:textSize="40dp"
+                android:textColor="#77202f"
+                android:fontFamily="@font/itim"
+                android:text="Connect with IP"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/itim"
+                    android:text="IP Address"
+                    android:textColor="#1a2e35"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_ip_addr"
+                    android:paddingRight="20dp"
+                    android:importantForAccessibility="yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:digits="0123456789."
+                    android:drawableLeft="@drawable/drawable_left_custom_ip"
+                    android:drawablePadding="20dp"
+                    android:elevation="20dp"
+                    android:ems="10"
+                    android:fontFamily="@font/averialbre_regular"
+                    android:hint="Enter Ip"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:shadowColor="#60e2aa"
+                    android:textColor="#77202f"
+                    android:textSize="25dp"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="20dp"
+                    android:fontFamily="@font/itim"
+                    android:text="Port Number"
+                    android:textColor="#1a2e35"
+                    android:textSize="30dp"
+                    android:textStyle="bold" />
+
+                <EditText
+                    android:id="@+id/edt_port_number"
+                    android:paddingRight="20dp"
+                    android:importantForAccessibility="yes"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="40dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="40dp"
+                    android:background="@drawable/edit_text_bg"
+                    android:digits="0123456789."
+                    android:drawableLeft="@drawable/drawable_left_custom_port"
+                    android:drawablePadding="20dp"
+                    android:elevation="20dp"
+                    android:ems="10"
+                    android:fontFamily="@font/averialbre_regular"
+                    android:hint="Enter Port"
+                    android:inputType="number|numberDecimal"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="12dp"
+                    android:paddingBottom="12dp"
+                    android:shadowColor="#60e2aa"
+                    android:textColor="#77202f"
+                    android:textSize="25dp">
+                </EditText>
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_ip_addr"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="30dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@drawable/connect_button"
+                    android:backgroundTint="#77202f"
+                    android:fontFamily="@font/itim"
+                    android:padding="8dp"
+                    android:text="Connect"
+                    android:textColor="@color/white"
+                    android:textSize="25dp"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

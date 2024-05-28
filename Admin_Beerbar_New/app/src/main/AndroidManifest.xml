@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity android:name="com.example.admin_beerbar_new.Enquery_Edit"
+
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.admin_beerbar_new.Bill_Wise_Value_Wise_Daily_Sumary"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Closing_Stock_Other_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Table_Report_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Transfer_Note"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Chalan_Enquery"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Bill_Wise_Value_Wise_Monthly_Sumary"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Bill_Wise_Value_Wise_Date_Sumary"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Item_Wise_Stock_Liquor_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Item_Wise_Ledger_Liquor_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Item_Wise_Stock_Other_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Tranfer_Note_Liquor_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Section_Wise_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Customer_Wise_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Bill_Wise_Value_Wise_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Customer_ledger_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Waiter_Wise_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Tranfer_Note_Other_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Tranfer_Note_Other_Date_Wise_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Tranfer_Note_Liquor_Date_Wise_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Closing_Stock_Liquor_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Config"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Food_Group_Total_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Liquor_Group_Total_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Wise_Expense_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Wise_Reciept_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Wise_Expense_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Wise_Receipts_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Brand_Wise_Sale_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Date_Rrand_Wise_Sale_Summary_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Purchase_Register_Value_Wise_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Purchase_Register_Value_Wise_Other_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Chalan_Value_Wise_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Sale_Register_Food_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Sale_Register_Liquor_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Item_Wise_Ledger_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Item_Wise_Ledger_Other_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Daily_Cash_Flow_Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Sale_Trend_Analysis_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Closing_Stock_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Check_Summary_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Home"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.MainActivity"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Report"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.IPAdderss_Activity"
+
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.admin_beerbar_new.Login"
+
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

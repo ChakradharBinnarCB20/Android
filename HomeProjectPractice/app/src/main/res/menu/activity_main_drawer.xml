@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home_icon"
+            android:title="Home" />
+
+    </group>
+
+    <item android:title="Balance">
+        <menu>
+            <item
+                android:id="@+id/stock"
+                android:icon="@drawable/other_stock"
+                android:title="Liquor Stock" />
+
+            <item
+                android:id="@+id/otherstock"
+                android:icon="@drawable/cola"
+                android:title="Other Stock" />
+
+        </menu>
+    </item>
+
+</menu>

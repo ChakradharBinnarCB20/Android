@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+      <item
+          android:id="@+id/table_list"
+          android:icon="@drawable/report"
+          android:title="Running Tables" />
+      <item
+          android:id="@+id/food_group_total_report"
+          android:icon="@drawable/report"
+          android:title="Sale Register-Food" />
+
+      <item
+          android:id="@+id/liquor_group_total_report"
+          android:icon="@drawable/report"
+          android:title="Sale Register-Liquor" />
+
+      <item
+          android:id="@+id/daily_cash_flow"
+          android:icon="@drawable/cash"
+          android:title="Daily Cash Flow" />
+      <item
+          android:id="@+id/bill_wise_value_wise_daily_monthly_smry"
+          android:icon="@drawable/report"
+          android:title="Daily/Monthly Summary" />
+      <item
+          android:id="@+id/date_wise_receipts_and_expense_report"
+          android:icon="@drawable/report"
+          android:title="Date Wise Rcp. And Exp." />
+      <!--<item
+            android:id="@+id/home"
+            android:icon="@drawable/wine"
+            android:title="Item Wise Sale" />-->
+
+        <item
+            android:id="@+id/stock"
+            android:icon="@drawable/other_stock"
+            android:title="Closing Stock Report-Liquor" />
+        <item
+            android:id="@+id/stock_other"
+            android:icon="@drawable/other_stock"
+            android:title="Closing Stock Report-Other" />
+
+       <!-- <item
+            android:id="@+id/cust_wise_summary"
+            android:icon="@drawable/report"
+            android:title="Customer Wise O/s Summary" />
+
+       -->
+
+
+
+       <!-- <item
+            android:id="@+id/item_wise_ledger"
+            android:icon="@drawable/report"
+            android:title="Item Wise Ledger-Liquor" />
+        <item
+            android:id="@+id/item_wise_ledger_other"
+            android:icon="@drawable/report"
+            android:title="Item Wise Ledger-Other" />-->
+
+     <!--  <item
+            android:id="@+id/daily_cash_flow"
+            android:icon="@drawable/cash"
+            android:title="Daily Cash Flow" />-->
+        <item
+            android:id="@+id/purchase_register"
+            android:icon="@drawable/report"
+            android:title="Pur.Reg. Value Wise-Liquor" />
+        <item
+          android:id="@+id/pur_supl_smry"
+          android:icon="@drawable/report"
+          android:title="Pur.Reg.Supp. Summ.-Liquor" />
+
+        <item
+            android:id="@+id/purchase_register_other"
+            android:icon="@drawable/report"
+            android:title="Pur.Reg. Value Wise-Other" />
+
+        <item
+            android:id="@+id/pur_supl_smry_other"
+            android:icon="@drawable/report"
+            android:title="Pur.Reg.Supp. Summ.-Other" />
+        <item
+            android:id="@+id/chalan_value_wise"
+            android:icon="@drawable/report"
+            android:title="Challan Register Value Wise" />
+
+        <item
+            android:id="@+id/chalan_supl_smry"
+            android:icon="@drawable/report"
+            android:title="Chln.Reg.Supplier Summary" />
+
+        <item
+            android:id="@+id/date_wise_cash_withdrawal_report"
+            android:icon="@drawable/report"
+            android:title="Date Wise Cash/Card/Pur/Chln/Sale" />
+
+      <item
+          android:id="@+id/date_wise_transfer_note_liquor"
+          android:icon="@drawable/report"
+          android:title="Date Transfer Notes-Liquor" />
+      <item
+          android:id="@+id/date_wise_transfer_note_other"
+          android:icon="@drawable/report"
+          android:title="Date Transfer Notes-Other" />
+
+      <item
+          android:id="@+id/section_wise_summary"
+          android:icon="@drawable/report"
+          android:title="Section Wise Summary" />
+
+      <item
+          android:id="@+id/waiter_wise_summary"
+          android:icon="@drawable/report"
+          android:title="Waiter Wise Summary" />
+      <item
+          android:id="@+id/customer_wise_summary"
+          android:icon="@drawable/report"
+          android:title="Customer Wise Summary" />
+      <item
+          android:id="@+id/cust_ledger"
+          android:icon="@drawable/report"
+          android:title="Customer Wise Ledger" />
+
+      <item
+          android:id="@+id/item_stock_other"
+          android:icon="@drawable/report"
+          android:title="Item Wise Stock Report-Other" />
+
+      <item
+          android:id="@+id/item_stock_liquor"
+          android:icon="@drawable/report"
+          android:title="Item Wise Stock Report-Liqr." />
+      <item
+          android:id="@+id/item_wise_ledger"
+          android:icon="@drawable/report"
+          android:title="Item Wise Ledger-Other" />
+
+      <item
+          android:id="@+id/item_wise_ledger_liquor"
+          android:icon="@drawable/report"
+          android:title="Item Wise Ledger-Liquor" />
+<!--      <item-->
+<!--          android:id="@+id/chalan"-->
+<!--          android:icon="@drawable/report"-->
+<!--          android:title="Chalan" />-->
+
+    </group>
+
+</menu>

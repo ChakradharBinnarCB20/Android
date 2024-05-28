@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+   <include layout="@layout/tolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FFFFFF">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+
+            <LinearLayout
+                android:layout_marginTop="40dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="100dp"
+                    android:src="@drawable/ip"
+                    android:layout_marginTop="10dp"
+                    android:layout_gravity="center_horizontal"
+                    />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:padding="10dp"
+                    android:background="#FFFFFF"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:id="@+id/edit_linaer"
+                        android:padding="10dp">
+                        <TextView
+                            android:textColor="@color/colorPrimary"
+                            android:text="Select Wine Shop Name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"/>
+                        <Spinner
+                            android:id="@+id/spinner_wine_shop"
+                            android:background="@drawable/edittextborder_new"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"/>
+
+                       <!-- <EditText
+                            android:layout_marginTop="10dp"
+                           android:enabled="false"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:background="@drawable/edit_text_border"
+                            android:paddingLeft="10dp"
+                            android:drawablePadding="5dp"
+                            android:hint="Enter IP Address"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:id="@+id/edt_ip_addr"
+                            android:inputType="number|numberDecimal"
+                            android:digits="0123456789."
+                            android:textColorHint="@color/blackcolour"
+                            android:textColor="@color/blackcolour"
+                            />
+
+                        <EditText
+                            android:enabled="false"
+                            android:layout_marginTop="20dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:background="@drawable/edit_text_border"
+                            android:paddingLeft="10dp"
+                            android:drawablePadding="5dp"
+                            android:hint="Enter Port Number"
+                            android:gravity="center"
+                            android:textSize="25dp"
+                            android:id="@+id/edt_port_number"
+                            android:inputType="numberDecimal"
+                            android:textColorHint="@color/blackcolour"
+                            android:textColor="@color/blackcolour"
+                            />-->
+
+                        <Button
+                            android:layout_marginTop="10dp"
+                            android:text="Next"
+                            android:textColor="#ffffff"
+                            android:background="@drawable/edittext_border"
+                            android:id="@+id/btn_ip_addr"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"/>
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/txt_msg"
+                        android:textSize="20dp"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Please Select Wine Shop To Connect Your System."
+                        android:textColor="@color/red"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <TextView
+                        android:id="@+id/txt_pwd"
+                        android:textSize="20dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="30dp"
+                        android:gravity="center"
+                        android:text="Change Password ?"
+                        android:textColor="@color/colorPrimary"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" />
+
+                    <!--<Button
+                        android:visibility="gone"
+                       android:drawableLeft="@drawable/bckup"
+                       android:drawableRight="@drawable/bckup"
+                        android:layout_marginTop="10dp"
+                        android:text="Restore Database"
+                        android:textColor="#ffffff"
+                        android:background="@drawable/edittext_border"
+                        android:id="@+id/btn_restore_db"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"/>-->
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

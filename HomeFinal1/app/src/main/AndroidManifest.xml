@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.home">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.home.Liquor_Stock_ctivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity android:name="com.example.home.Other_Stock_ctivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name="com.example.home.Print_Kot_Activity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.home.Cancel_Kot_Activity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.home.Swap_Table_Activity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.home.ReportActivity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" /> <!-- <activity android:name=".Home"></activity> -->
+        <activity
+            android:name="com.example.home.IMEI_Activity"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.home.MenuCard"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.example.home.Home"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+
+            android:name="com.example.home.IPAdderss_Activity"
+            android:excludeFromRecents="true"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.home.Login"
+            android:excludeFromRecents="true"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

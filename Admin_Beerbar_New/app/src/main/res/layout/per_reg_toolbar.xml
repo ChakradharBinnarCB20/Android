@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme" >
+       <LinearLayout
+           android:layout_marginRight="20dp"
+            android:id="@+id/toolbar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/toolbar_title"
+                android:layout_width="wrap_content"
+                android:text="title"
+                android:textSize="18dp"
+                android:textStyle="bold"
+
+                android:layout_height="wrap_content" />
+           <View
+               android:background="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="0dp"
+                   android:layout_weight="0.5"
+                   android:text="Docdt : "
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal|center_vertical"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:id="@+id/toolbar_docdt"
+                   android:layout_width="0dp"
+                   android:layout_weight="2.5"
+                   android:text=" title"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_vertical"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+           <View
+               android:background="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:text="Invoice no. : "
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal|center_vertical"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:id="@+id/toolbar_ino"
+                   android:layout_width="0dp"
+                   android:layout_weight="2.4"
+                   android:text="title"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_vertical"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+           <View
+               android:background="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:text="Supplier Name : "
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal|center_vertical"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:id="@+id/toolbar_sname"
+                   android:layout_width="0dp"
+                   android:layout_weight="1.7"
+                   android:text=" ss"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_vertical"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+           <View
+               android:background="#ffffff"
+               android:layout_width="match_parent"
+               android:layout_height="1dp"/>
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+               <TextView
+                   android:textColor="#ffffff"
+                   android:layout_width="0dp"
+                   android:layout_weight="1"
+                   android:text="Amount : "
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_horizontal|center_vertical"
+                   android:layout_height="match_parent" />
+               <TextView
+                   android:id="@+id/toolbar_amt"
+                   android:layout_width="0dp"
+                   android:layout_weight="3.4"
+                   android:text=" ss"
+                   android:textSize="18dp"
+                   android:textStyle="bold"
+                   android:gravity="center_vertical"
+                   android:layout_height="match_parent" />
+
+           </LinearLayout>
+        </LinearLayout>
+
+    </androidx.appcompat.widget.Toolbar>
+
+</LinearLayout>

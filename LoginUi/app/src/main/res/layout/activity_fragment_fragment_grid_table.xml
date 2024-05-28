@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment_fragment_grid_table">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:paddingBottom="20dp"
+            android:text="Running Total"
+            android:fontFamily="@font/averialbre_regular"
+            android:textSize="20dp"
+            android:textColor="#1a2e35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/txt_total_table_bill"
+            android:layout_marginLeft="15dp"
+            android:text="00.00"
+            android:padding="3dp"
+            android:textColor="#59e5a8"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/bg_running"
+            android:elevation="20dp"
+            android:ems="10"
+            android:fontFamily="@font/averialbre_regular"
+            android:shadowColor="#60e2aa"
+            android:textSize="20dp"
+            android:textAlignment="center">
+        </TextView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/averialbre_regular"
+            android:paddingBottom="20dp"
+            android:text="Table Search  "
+            android:textColor="#1a2e35"
+            android:textSize="20dp" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/place_searchView"
+            android:iconifiedByDefault="false"
+            android:layout_marginLeft="15dp"
+            android:padding="3dp"
+            android:textColor="#59e5a8"
+            android:layout_marginTop="8dp"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_marginRight="60dp"
+            android:background="@drawable/bg_running"
+            android:elevation="20dp"
+            android:ems="10"
+            android:fontFamily="@font/averialbre_regular"
+            android:shadowColor="#60e2aa"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+
+    </LinearLayout>
+
+    <androidx.cardview.widget.CardView
+        android:elevation="30dp"
+        android:background="@drawable/bg_running"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_marginTop="05dp"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/recycler_cust_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitecolour"
+   >
+
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/pgb"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:textColor="@color/colorPrimary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="2dp"
+                />
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:textColor="#ffffff"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="From"
+                    android:textAllCaps="false"
+                    android:layout_width="80dp"
+                    android:layout_height="45dp" />
+
+                <TextView
+                    android:background="@drawable/edittextborder_new"
+                    android:id="@+id/edt_frm_date"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/blackcolour"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    />
+
+                <Button
+                    android:textAllCaps="false"
+                    android:id="@+id/btn_close_time"
+                    android:layout_width="55dp"
+                    android:layout_height="45dp"
+                    android:backgroundTint="@color/colorPrimary"
+                    android:text="To"
+                    android:textColor="#ffffff" />
+
+                <TextView
+                    android:background="@drawable/edittextborder_new"
+                    android:id="@+id/edt_to_date"
+                    android:layout_width="120dp"
+                    android:layout_height="45dp"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/blackcolour"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:textStyle="bold"
+                    />
+
+            </LinearLayout>
+            <View
+                android:layout_marginTop="05dp"
+                android:background="@color/red"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+            <LinearLayout
+                android:layout_marginTop="05dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#ffffff"
+                    android:background="@drawable/edittext_border"
+                    android:text="Report"
+                    android:gravity="center"
+                    android:id="@+id/btn_proceed"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginRight="80dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginTop="10dp"
+                    android:textSize="17sp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

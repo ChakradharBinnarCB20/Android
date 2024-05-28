@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:background="@color/blackcolour"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Splash_Activity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="130dp"
+        android:src="@drawable/wineglass" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="467dp"
+        android:layout_marginBottom="144dp"
+        android:fontFamily="@font/salsa"
+        android:gravity="center"
+        android:text="Pranali"
+        android:textColor="@color/whitecolour"
+        android:textSize="90dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="564dp"
+        android:layout_marginBottom="98dp"
+        android:fontFamily="@font/bree"
+        android:gravity="center"
+        android:text="Server"
+        android:textColor="@color/whitecolour"
+        android:textSize="50dp" />
+
+</RelativeLayout>

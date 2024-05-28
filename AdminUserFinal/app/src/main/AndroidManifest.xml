@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"
+        tools:ignore="CoarseFineLocation" />
+    <uses-permission android:name="android.permission.READ_PRIVILEGED_PHONE_STATE"
+        tools:ignore="ProtectedPermissions"/>
+
+    <application
+        android:usesCleartextTraffic="true"
+        android:allowBackup="true"
+        android:icon="@drawable/launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name="com.suresh.wineshop.Profit_Loss_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Config"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Date_Brand_Wise_Sale_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Date_Rrand_Wise_Sale_Summary_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Stock_Value_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Purchase_Register_Value_Wise_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Sup_Brnd_Pur_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Chalan_Value_Wise_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Sale_Register_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Customer_ledger_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Customer_Wise_Item_Wise_Sale_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Item_Wise_Ledger_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Daily_Cash_Flow_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Customer_Wise_Summary_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.suresh.wineshop.Sale_Trend_Analysis_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.suresh.wineshop.Closing_Stock_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="com.suresh.wineshop.Check_Summary_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Item_Wise_Stock_Summary_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.IPAdderss_Activity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.suresh.wineshop.Item_Wise_stock_within_peroid_Report"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:exported="true"
+            android:name="com.suresh.wineshop.Login"
+            android:theme="@style/AppTheme.NoActionBar"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+
+</manifest>

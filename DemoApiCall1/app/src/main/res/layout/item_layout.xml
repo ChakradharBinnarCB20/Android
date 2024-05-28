@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="8dp">
+
+    <TextView
+        android:id="@+id/doc_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Document Date: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 1: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 2: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount_3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 3: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount_4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 4: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/amount_5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 5: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/amount_6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount 6: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/dis_amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dis Amount: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/amount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Amount: "
+        android:textSize="16sp"
+        android:textStyle="bold"/>
+
+<!--    <TextView-->
+<!--        android:id="@+id/doc_date_2"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="Doc Date 2: "-->
+<!--        android:textSize="16sp"-->
+<!--        android:textStyle="bold"/>-->
+
+</LinearLayout>
